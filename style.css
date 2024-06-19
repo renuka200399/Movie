@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.background{
+    
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+
+}
+.logo{
+    position: absolute;
+    color: white;
+    top: 1px;
+    font-size: 35px;
+    font-family:sans-serif;
+
+}
+.nav-bar .search{
+    display: flex;
+    position: absolute;
+    top: 3px;
+    padding-left: 950px;   
+}
+.nav-bar input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    height: 10px;
+    width: 300px;   
+}
+.nav-bar .search button {
+    margin-top: 8px;
+    background:yellow;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px; 
+    
+}
+.nav-bar .search button:hover {
+    border:2px solid black;
+    
+}
+.nav-bar .genres{
+    padding-left: 5px;
+    position: absolute;
+    top: 80px;
+    background-color: #363434;
+}
+.genres h3{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.genres p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+}
+.nav-bar input[type=text]{
+    font-size: 17px;
+    height: 30px;
+    
+}
+.nav-bar .genres button {
+    margin-top: 8px;
+    background:yellow;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px; 
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
+/* .nav-bar .genres button:hover{
+    transform: scale(0.25s);
+} */
+.genres .list-of-genres li{
+    list-style: none;
+    
+}
+.genres .list-of-genres a{
+    font-size: 20px;
+    color:orange;
+    text-decoration: none;
+}
+.genres .list-of-genres a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.nav-bar .directors{
+    padding-left: 5px;
+    position: absolute;
+    top: 500px;
+    background-color: #363434;
+}
+.directors h3{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.directors p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+}
+.nav-bar input[type=text]{
+    font-size: 17px;
+    height: 30px;
+    
+}
+
+.nav-bar .directors button {
+    margin-top: px;
+    background:yellow;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px; 
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
+/* .directors .list-of-directors li{
+    list-style: none;
+    
+}
+.directors.list-of-directors a{
+    font-size: 20px;
+    color:orange;
+    text-decoration: none;
+}
+.directors .list-of-directors a:hover{
+    color: yellow;
+    cursor: pointer;
+}  */
+.nav-bar .title{
+    position: absolute;
+    display: flex;
+    top: 70px;
+    padding-left: 500px;
+    color: white;
+}
+.nav-bar .title h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-bar .title button{
+    background-color: yellow;
+    border-radius: 10px;
+}
+.cards{
+    height: 280px;
+    gap: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    display:flex;
+    /* flex-direction: row; */
+    top: 200px;
+    padding-left: 400px;
+}
+.cards img{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 190px;
+    padding: 0 10px;
+    display: grid;
+    transition: transform 0.2s;
+    
+}
+.cards img:hover{
+    transform: scale(1.5);
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:16px;
+   
+}
+.cards h5{
+    color: rgb(27, 26, 26);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.cards h5:hover{
+    /* background-color:yellow; */
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.cards1{
+    height: 280px;
+    gap: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    display:flex;
+    /* flex-direction: row; */
+    top: 500px;
+    padding-left: 400px;
+}
+.cards1 img{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 190px;
+    padding: 0 10px;
+    display: grid;
+    transition: transform 0.2s;
+    
+}
+.cards1 img:hover{
+    transform: scale(1.5);
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:16px;
+   
+}
+.cards1 h5{
+    color: rgb(33, 33, 33);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.cards1 h5:hover{
+    /* background-color:yellow; */
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.cards2{
+    height: 280px;
+    gap: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    display:flex;
+    /* flex-direction: row; */
+    top: 800px;
+    padding-left: 400px;
+}
+.cards2 img{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 190px;
+    padding: 0 10px;
+    display: grid;
+    transition: transform 0.2s;
+    
+}
+.cards2 img:hover{
+    transform: scale(1.5);
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:16px;
+   
+}
+.cards2 h5{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.cards2 h5:hover{
+    /* background-color:yellow; */
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
